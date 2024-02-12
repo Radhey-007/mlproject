@@ -1,3 +1,12 @@
 numpy
 seaborn
--e .
+xgboost
+scikit-learn
+catboost
+
+#-e .
+
+
+# Editable mode (often denoted by the -e flag) is a feature of pip, the package installer for Python.
+# When you install a package in editable mode, it creates a symlink to the local source code directory instead of copying the package files to the Python environment.
+# Any changes you make to the source code are immediately reflected in the installed package.
